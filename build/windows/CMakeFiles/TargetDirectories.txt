@@ -1,0 +1,13 @@
+D:/flutter apps/bro_code/build/windows/CMakeFiles/INSTALL.dir
+D:/flutter apps/bro_code/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/flutter apps/bro_code/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/flutter apps/bro_code/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/flutter apps/bro_code/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/flutter apps/bro_code/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/flutter apps/bro_code/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/flutter apps/bro_code/build/windows/runner/CMakeFiles/bro_code.dir
+D:/flutter apps/bro_code/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/flutter apps/bro_code/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+D:/flutter apps/bro_code/build/windows/plugins/url_launcher_windows/CMakeFiles/url_launcher_windows_plugin.dir
+D:/flutter apps/bro_code/build/windows/plugins/url_launcher_windows/CMakeFiles/INSTALL.dir
+D:/flutter apps/bro_code/build/windows/plugins/url_launcher_windows/CMakeFiles/ALL_BUILD.dir

@@ -1,0 +1,10 @@
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/icudtl.dat
+D:/flutter apps/bro_code/build/windows/runner/Debug/flutter_windows.dll
+D:/flutter apps/bro_code/build/windows/runner/Debug/url_launcher_windows_plugin.dll
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/flutter_assets/assets/qrbg.png
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/flutter_assets/NOTICES
+D:/flutter apps/bro_code/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
