@@ -6,7 +6,19 @@ QR CODE Scanner and Generator.
 
 You can create scan and share your QR Code
 
-DEMO 
+## DEMO
 
-<img src="https://github.com/playatanu/qrCode/blob/Add-Scanner/qrCode.gif?raw=true" alt="demo" width="200" height="350">
+
+
+
+
+
+
+<img align="left" src="https://github.com/playatanu/qrCode/blob/Add-Scanner/qrimg2.jpg?raw=true" alt="demo" width="200" height="350"> 
+
+
+<img align="center" src="https://github.com/playatanu/qrCode/blob/Add-Scanner/qrimg.jpg?raw=true" alt="demo" width="200" height="350">
+
+
+
 
