@@ -1682,6 +1682,7 @@ drawable ic_barcode_flash_off
 drawable ic_barcode_flash_on
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
+drawable ic_launcher
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle

@@ -1,7 +1,6 @@
 import 'package:bro_code/screen/home.dart';
 import 'package:bro_code/screen/scane.dart';
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 
 void main() => runApp(MyApp());
 

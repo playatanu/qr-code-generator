@@ -12,6 +12,10 @@
         "source": "D:\\flutter apps\\bro_code\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\flutter apps\\bro_code\\build\\app\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "D:\\flutter apps\\bro_code\\android\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\flutter apps\\bro_code\\build\\app\\intermediates\\res\\merged\\debug\\drawable_launch_background.xml.flat",
         "source": "D:\\flutter apps\\bro_code\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
     },
