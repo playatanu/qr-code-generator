@@ -34,33 +34,59 @@ class _HomeState extends State<Home> {
               padding: EdgeInsets.all(24),
               child: Column(
                 children: [
-                  RepaintBoundary(
-                    key: key,
-                    child: QrImage(
-                      backgroundColor: Colors.white,
-                      data: qrData,
-                      version: QrVersions.auto,
-                      size: 200.0,
-                      semanticsLabel: qrLable,
-                      embeddedImage: AssetImage('assets/qrbg.png'),
-                      embeddedImageStyle: QrEmbeddedImageStyle(
-                        size: Size(50, 50),
+                  Container(
+                    decoration: BoxDecoration(
+                        color: Colors.grey[100],
+                        border: Border.all(color: Colors.blue, width: 2),
+                        borderRadius: BorderRadius.zero),
+                    child: RepaintBoundary(
+                      key: key,
+                      child: QrImage(
+                        backgroundColor: Colors.white,
+                        data: qrData,
+                        version: QrVersions.auto,
+                        size: 200.0,
+                        semanticsLabel: qrLable,
                       ),
                     ),
+                  ),
+                  SizedBox(
+                    height: 20,
                   ),
                   Text(
                     "PLAYATANU",
                     style: TextStyle(backgroundColor: Colors.white),
                   ),
                   SizedBox(
-                    height: 50,
+                    height: 30,
                   ),
                   TextField(
                     controller: _nameControler,
                     decoration: InputDecoration(
-                      border: OutlineInputBorder(),
                       hintText: 'Enter a message',
+                      labelText: 'Enter a message',
+                      disabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(4)),
+                        borderSide: BorderSide(width: 1, color: Colors.orange),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(4)),
+                        borderSide: BorderSide(width: 2, color: Colors.blue),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(4)),
+                        borderSide: BorderSide(width: 2, color: Colors.blue),
+                      ),
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(4)),
+                          borderSide: BorderSide(
+                            width: 1,
+                          )),
+                      errorBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(4)),
+                          borderSide: BorderSide(width: 1, color: Colors.blue)),
                       suffixIcon: IconButton(
+                        color: Colors.blue,
                         onPressed: () {
                           setState(() {
                             qrData = _nameControler.text;

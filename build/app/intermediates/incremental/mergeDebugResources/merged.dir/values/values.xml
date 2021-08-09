@@ -505,9 +505,6 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
-    <color name="viewfinder_border">#ffafed44</color>
-    <color name="viewfinder_laser">#ffcc0000</color>
-    <color name="viewfinder_mask">#60000000</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -1017,8 +1014,6 @@
     <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <integer name="viewfinder_border_length">60</integer>
-    <integer name="viewfinder_border_width">4</integer>
     <plurals description="Plural form content description for number of new notifications [CHAR_LIMIT=NONE]" name="mtrl_badge_content_description">
     <item quantity="one"><ns1:g id="count">%d</ns1:g> new notification</item>
     <item quantity="other"><ns1:g id="count">%d</ns1:g> new notifications</item>
@@ -5693,20 +5688,6 @@
     <attr format="dimension" name="horizontalOffset"/>
     <attr format="dimension" name="verticalOffset"/>
   </declare-styleable>
-    <declare-styleable name="BarcodeScannerView">
-        <attr format="boolean" name="shouldScaleToFill"/>
-        <attr format="boolean" name="laserEnabled"/>
-        <attr format="color" name="laserColor"/>
-        <attr format="color" name="borderColor"/>
-        <attr format="color" name="maskColor"/>
-        <attr format="dimension" name="borderWidth"/>
-        <attr format="dimension" name="borderLength"/>
-        <attr format="boolean" name="roundedCorner"/>
-        <attr format="dimension" name="cornerRadius"/>
-        <attr format="boolean" name="squaredFinder"/>
-        <attr format="float" name="borderAlpha"/>
-        <attr format="dimension" name="finderOffset"/>
-    </declare-styleable>
     <declare-styleable name="BaseProgressIndicator">
     <!-- Whether the progress indicator should be indeterminate mode. -->
     <attr name="android:indeterminate"/>

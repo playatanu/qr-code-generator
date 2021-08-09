@@ -1,6 +1,7 @@
 import 'package:bro_code/screen/home.dart';
 import 'package:bro_code/screen/scane.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,9 +14,9 @@ class _MyAppState extends State<MyApp> {
   int _navIndex = 0;
 
   List<Widget> _widgetList = <Widget>[
+    Scan(),
     Home(),
     // QRViewExample(),
-    Scan(),
   ];
 
   @override
@@ -25,36 +26,36 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Bro Code"),
-          centerTitle: true,
+          title: Text("QR CODE"),
         ),
         bottomNavigationBar: BottomNavigationBar(
             currentIndex: _navIndex,
-            showSelectedLabels: false,
-            showUnselectedLabels: false,
+            showSelectedLabels: true,
+            showUnselectedLabels: true,
             items: [
-              BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.qr_code,
-                  //color: kGoodLightGray,
-                ),
-                // ignore: deprecated_member_use
-                title: Text('CALENDAR'),
-                activeIcon: Icon(
-                  Icons.qr_code,
-                  // color: kGoodPurple,
-                ),
-              ),
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.qr_code_scanner,
                   //color: kGoodLightGray,
                 ),
                 // ignore: deprecated_member_use
-                title: Text('CALENDAR'),
+                title: Text('Scan QR'),
                 activeIcon: Icon(Icons.qr_code_scanner
                     // color: kGoodPurple,
                     ),
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.qr_code,
+                  //color: kGoodLightGray,
+                ),
+                // ignore: deprecated_member_use
+                title: Text('QR Code'),
+
+                activeIcon: Icon(
+                  Icons.qr_code,
+                  // color: kGoodPurple,
+                ),
               ),
             ],
             onTap: (index) {

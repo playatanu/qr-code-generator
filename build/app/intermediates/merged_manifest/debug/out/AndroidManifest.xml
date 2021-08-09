@@ -68,7 +68,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" />
         <activity
             android:name="io.flutter.plugins.urllauncher.WebViewActivity"
             android:exported="false"

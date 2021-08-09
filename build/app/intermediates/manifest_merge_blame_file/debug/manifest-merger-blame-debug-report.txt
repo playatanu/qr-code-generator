@@ -15,8 +15,8 @@
 14-->D:\flutter apps\bro_code\android\app\src\debug\AndroidManifest.xml:6:5-66
 14-->D:\flutter apps\bro_code\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->[:barcode_scan] D:\flutter apps\bro_code\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
-15-->[:barcode_scan] D:\flutter apps\bro_code\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
+15-->[:flutter_barcode_scanner] D:\flutter apps\bro_code\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+15-->[:flutter_barcode_scanner] D:\flutter apps\bro_code\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
 16
 17    <uses-feature android:name="android.hardware.camera" />
 17-->[:flutter_barcode_scanner] D:\flutter apps\bro_code\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
@@ -103,54 +103,51 @@
 69            android:value="2" />
 69-->D:\flutter apps\bro_code\android\app\src\main\AndroidManifest.xml:40:13-30
 70
-71        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" />
-71-->[:barcode_scan] D:\flutter apps\bro_code\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-84
-71-->[:barcode_scan] D:\flutter apps\bro_code\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:19-81
-72        <activity
-72-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
-73            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-73-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
-74            android:exported="false"
-74-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
-75            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-75-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
-76        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
-76-->[:flutter_barcode_scanner] D:\flutter apps\bro_code\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
-76-->[:flutter_barcode_scanner] D:\flutter apps\bro_code\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
-77
-78        <provider
-78-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
-79            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
-79-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-77
-80            android:authorities="com.example.bro_code.flutter.share_provider"
-80-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
-81            android:exported="false"
-81-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
-82            android:grantUriPermissions="true" >
-82-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
-83            <meta-data
-83-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:68
-84                android:name="android.support.FILE_PROVIDER_PATHS"
-84-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
-85                android:resource="@xml/flutter_share_file_paths" />
-85-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-65
-86        </provider>
-87
-88        <activity
-88-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
-92
-93        <meta-data
-93-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\c1e5cf3b1f723b4a1bb61c60fa9a6fb3\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
-94            android:name="com.google.android.gms.version"
-94-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\c1e5cf3b1f723b4a1bb61c60fa9a6fb3\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
-95            android:value="@integer/google_play_services_version" />
-95-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\c1e5cf3b1f723b4a1bb61c60fa9a6fb3\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
-96    </application>
-97
-98</manifest>
+71        <activity
+71-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+72            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+72-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+73            android:exported="false"
+73-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+74            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+74-->[:url_launcher] D:\flutter apps\bro_code\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+75        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+75-->[:flutter_barcode_scanner] D:\flutter apps\bro_code\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
+75-->[:flutter_barcode_scanner] D:\flutter apps\bro_code\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
+76
+77        <provider
+77-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+78            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+78-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-77
+79            android:authorities="com.example.bro_code.flutter.share_provider"
+79-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+80            android:exported="false"
+80-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+81            android:grantUriPermissions="true" >
+81-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+82            <meta-data
+82-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:68
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+84                android:resource="@xml/flutter_share_file_paths" />
+84-->[:share_plus] D:\flutter apps\bro_code\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-65
+85        </provider>
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\d5d0c9431bc4846b8dce9485fa3f6c9f\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\c1e5cf3b1f723b4a1bb61c60fa9a6fb3\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\c1e5cf3b1f723b4a1bb61c60fa9a6fb3\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\PLAYATANU\.gradle\caches\transforms-2\files-2.1\c1e5cf3b1f723b4a1bb61c60fa9a6fb3\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+95    </application>
+96
+97</manifest>
