@@ -24,11 +24,7 @@ QR CODE Scanner and Generator.
 
 You can create scan and share your QR Code
 
-## DEMO
-
-
-
-
+## DEMO  [<a href="https://github.com/playatanu/qrCode/raw/Add-Scanner/build/app/outputs/flutter-apk/app.apk">Download APK</a>]
 
 
 
