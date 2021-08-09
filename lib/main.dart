@@ -15,7 +15,6 @@ class _MyAppState extends State<MyApp> {
   List<Widget> _widgetList = <Widget>[
     Scan(),
     Home(),
-    // QRViewExample(),
   ];
 
   @override
@@ -35,22 +34,17 @@ class _MyAppState extends State<MyApp> {
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.qr_code_scanner,
-                  //color: kGoodLightGray,
                 ),
                 // ignore: deprecated_member_use
                 title: Text('Scan QR'),
-                activeIcon: Icon(Icons.qr_code_scanner
-                    // color: kGoodPurple,
-                    ),
+                activeIcon: Icon(Icons.qr_code_scanner),
               ),
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.qr_code,
-                  //color: kGoodLightGray,
                 ),
                 // ignore: deprecated_member_use
                 title: Text('QR Code'),
-
                 activeIcon: Icon(
                   Icons.qr_code,
                   // color: kGoodPurple,
