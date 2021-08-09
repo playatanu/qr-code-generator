@@ -26,6 +26,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
         child: Container(
             color: Colors.white,
@@ -41,10 +42,10 @@ class _HomeState extends State<Home> {
                       version: QrVersions.auto,
                       size: 200.0,
                       semanticsLabel: qrLable,
-                      // embeddedImage: AssetImage('assets/qrbg.png'),
-                      // embeddedImageStyle: QrEmbeddedImageStyle(
-                      //   size: Size(40, 40),
-                      // ),
+                      embeddedImage: AssetImage('assets/qrbg.png'),
+                      embeddedImageStyle: QrEmbeddedImageStyle(
+                        size: Size(50, 50),
+                      ),
                     ),
                   ),
                   Text(
@@ -112,13 +113,14 @@ class _HomeState extends State<Home> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            Icons.ios_share_outlined,
+                            Icons.qr_code,
                             color: Colors.blue,
                           ),
                           SizedBox(
                             width: 5,
                           ),
-                          Text('Share', style: TextStyle(color: Colors.blue)),
+                          Text('Share QR CODE',
+                              style: TextStyle(color: Colors.blue)),
                         ],
                       ),
                       textColor: Colors.white,
